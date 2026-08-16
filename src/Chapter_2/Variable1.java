@@ -1,6 +1,6 @@
 package Chapter_2;
 
-public class Variable_1 {
+public class Variable1 {
     public static void main(String[] args) {
 
         int level1;
