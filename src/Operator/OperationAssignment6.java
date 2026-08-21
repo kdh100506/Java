@@ -14,6 +14,6 @@ public class OperationAssignment6 {
         System.out.println(total);
         System.out.printf("%.1f%n", avg);
         System.out.println(pass ? "통과":"미통과");
-d
+
     }
 }
