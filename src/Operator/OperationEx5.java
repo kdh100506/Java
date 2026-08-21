@@ -17,3 +17,4 @@ public class OperationEx5 {
         System.out.println(num2 >>> 2);
     }
 }
+
