@@ -17,6 +17,7 @@ public class ConditionEx9 {
                     System.out.println(num1 + " / " + num2 + " = " + (num1/num2));
                 }
             }
+            default -> System.out.println("연산할수 없습니다.");
         }
     }
 }
