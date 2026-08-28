@@ -10,7 +10,7 @@ public class ConditionEx4 {
         } else if (dollar == 0) {
             System.out.println("환전할 금액이 없습니다.");
         } else {
-            System.out.println("환전 금액은 " + (exchangeRate*dollar) + "입니다.");
+            System.out.println("환전 금액은 " + (exchangeRate*dollar) + "원 입니다.");
         }
     }
 }
