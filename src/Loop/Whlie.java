@@ -1,4 +1,4 @@
-package loop;
+package Loop;
 
 public class Whlie {
     public static void main(String[] args) {

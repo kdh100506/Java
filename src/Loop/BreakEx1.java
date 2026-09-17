@@ -1,4 +1,4 @@
-package loop;
+package Loop;
 
 public class BreakEx1 {
     public static void main(String[] args) {

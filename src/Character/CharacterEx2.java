@@ -1,8 +1,7 @@
-package Chapter_2;
+package Character;
 
 public class CharacterEx2 {
     public static void main(String[] args) {
-
         char ch1 = 'A';
         System.out.println(ch1);
         System.out.println((int)ch1);
@@ -16,6 +15,5 @@ public class CharacterEx2 {
 
         char ch4 = '한';
         char ch5 = 'm';
-
     }
 }

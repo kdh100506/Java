@@ -1,4 +1,4 @@
-package Chapter_2;
+package Character;
 
 public class BooleanEx {
     public static void main(String[] args) {

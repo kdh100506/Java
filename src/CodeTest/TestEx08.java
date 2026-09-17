@@ -9,11 +9,17 @@ package CodeTest;
 
 public class TestEx08 {
     public static void main(String[] args) {
-        int num = 1;
-
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5; j++) {
-                System.out.print(num++ + " ");
+        for (int i = 0; i < 4; i++) {
+            if (i % 2 == 0) {
+                // 1, 3번째 줄 (인덱스 0, 2): 왼쪽 -> 오른쪽 증가
+                for (int j = 1; j <= 5; j++) {
+                    System.out.print((i * 5 + j) + " ");
+                }
+            } else {
+                // 2, 4번째 줄 (인덱스 1, 3): 오른쪽 -> 왼쪽 감소
+                for (int j = 5; j >= 1; j--) {
+                    System.out.print((i * 5 + j) + " ");
+                }
             }
             System.out.println();
         }
