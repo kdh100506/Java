@@ -1,4 +1,4 @@
-package Character;
+package no1_Character;
 
 public class Constant {
     public static void main(String[] args) {

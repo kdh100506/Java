@@ -1,4 +1,4 @@
-package Character;
+package no1_Character;
 
 public class Variable1 {
     public static void main(String[] args) {
