@@ -1,4 +1,4 @@
-package no1_Character;
+package _01_Character;
 
 public class DoubleEx1 {
     public static void main(String[] args) {

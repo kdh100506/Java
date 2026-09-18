@@ -28,5 +28,9 @@ public class Student {
         System.out.println(studentLee.getStudentName());
         System.out.println(studentAhn.getStudentName());
         System.out.println(studentKim.getStudentName());
+
+        System.out.println(studentLee);
+        System.out.println(studentAhn);
+        System.out.println(studentKim);
     }
 }

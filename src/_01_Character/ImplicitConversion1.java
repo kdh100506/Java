@@ -1,4 +1,4 @@
-package no1_Character;
+package _01_Character;
 
 public class ImplicitConversion1 {
     public static void main(String[] args) {

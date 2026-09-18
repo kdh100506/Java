@@ -1,6 +1,6 @@
 package hiding.company;
 
-public class Emplove {
+public class Emplyee {
     public String name = "철수";
     protected String department = "개발팀";
     String email = "soo@company.com";
