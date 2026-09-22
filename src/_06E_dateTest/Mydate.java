@@ -1,0 +1,17 @@
+package _06E_dateTest;
+
+public class Mydate {
+    private int day;
+    private int month;
+    private int year;
+
+    public void setDate(int month, int day) {
+        if(month==2){
+            if(day < 1 || day > 28) {
+                System.out.println("오류 입니다.");
+            } else {
+                this.day = day;
+            }
+        }
+    }
+}
