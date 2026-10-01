@@ -21,6 +21,14 @@ public class PhoneStore {
     }
 
     private void registerPayment(){
-        System.out.println();
+        System.out.println("대리점: 요금제를 등록합니다. 약정을 등록합니다.");
+    }
+
+    private void discountPromtion(){
+        System.out.println("대리점: 프로모션을 할인합니다.");
+    }
+
+    private void saveData() {
+        System.out.println("대리점: 데이터를 저장하고 새로운 폰으로 이동합니다.");
     }
 }
