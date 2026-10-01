@@ -12,8 +12,11 @@ public class PhoneStore {
         // 폰 가격보다 고객의 예산이 크거나 같고 모델이 같으면 판매가 가능
         if(phone.getPrice() <= budget && model.equals(phone.getModel())) {
             // 요금제를 등록하고
+            registerPayment();
             // 할인하고 데이터를 저장하고
+            discountPromotion();
             // 새로운 폰으로 이동
+            saveData();
             return phone;
         } else {
             return null;
@@ -24,7 +27,7 @@ public class PhoneStore {
         System.out.println("대리점: 요금제를 등록합니다. 약정을 등록합니다.");
     }
 
-    private void discountPromtion(){
+    private void discountPromotion(){
         System.out.println("대리점: 프로모션을 할인합니다.");
     }
 
