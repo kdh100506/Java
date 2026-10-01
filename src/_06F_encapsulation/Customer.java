@@ -22,4 +22,6 @@ public class Customer {
     public double getPrice() {
         return price;
     }
+
+    sellPhone(model, budget);
 }
