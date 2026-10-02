@@ -12,4 +12,8 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
+    Person returnItSelf() {
+        return this; // this는 주소값을 반환함.
+    }
 }

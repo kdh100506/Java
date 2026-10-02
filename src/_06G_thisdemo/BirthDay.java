@@ -6,6 +6,6 @@ public class BirthDay {
     int day;
 
     public void printThis() {
-        System.out.println(this);
+        System.out.println(this); // this는 주소값을 반환함.
     }
 }
