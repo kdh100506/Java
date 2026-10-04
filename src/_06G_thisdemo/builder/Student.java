@@ -33,7 +33,7 @@ public class Student {
         public Builder(int id, String name, int grade) {
             this.id = id;
             this.name = name;
-            this.grade =grade;
+            this.grade = grade;
         }
 
         public Builder major(String major) {
