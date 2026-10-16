@@ -7,9 +7,9 @@ public class BookArray2 {
         Book book3 = new Book("연을 쫒는 아이", "할레드 호세이니");
         Book book4 = new Book("오디세이아", "호메로스");
 
-        book1.getInfo();
-        book2.getInfo();
-        book3.getInfo();
-        book4.getInfo();
+        book1.bookInfo();
+        book2.bookInfo();
+        book3.bookInfo();
+        book4.bookInfo();
     }
 }

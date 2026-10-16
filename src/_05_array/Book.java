@@ -28,7 +28,7 @@ public class Book {
         this.author = author;
     }
 
-    public void getInfo() {
+    public void bookInfo() {
         System.out.println("책이름: " + bookName + ", 작가: " + author);
     }
 }
