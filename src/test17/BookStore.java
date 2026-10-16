@@ -13,7 +13,7 @@ public class BookStore {
         book2.setAuthor("호메로스");
         book2.setPrice(27000);
 
-        book1.getInfo();
-        book2.getInfo();
+        System.out.println(book1.getInfo());
+        System.out.println(book2.getInfo());
     }
 }

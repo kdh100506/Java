@@ -26,14 +26,14 @@ public class Book {
     }
 
     public void setPrice(int price) {
-        if(price <= 0) {
+        if(price < 0) {
             System.out.println("가격은 0원 이상입니다.");
             return;
         }
         this.price = price;
     }
 
-    public void getInfo() {
-        System.out.println("제목: " + title + ", 저자: " + author + ", 가격: " + price + "원");
+    public String getInfo() {
+        return "제목: " + title + ", 저자: " + author + ", 가격: " + price + "원";
     }
 }
