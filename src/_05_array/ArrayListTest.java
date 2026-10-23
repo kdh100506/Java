@@ -19,6 +19,18 @@ public class ArrayListTest {
             book.bookInfo();
         }
 
+        bookList.remove(0);
+        System.out.println("\n첫번째 요소 제거후");
+        for(Book book : bookList) {
+            book.bookInfo();
+        }
 
+        bookList.removeAll(bookList);
+        System.out.println("\n모든 요소값 제거후");
+        for(Book book : bookList) {
+            book.bookInfo();
+        }
+
+        System.out.println(bookList.isEmpty());
     }
 }
