@@ -1,0 +1,12 @@
+package _11_thisdemo;
+
+public class CallAnotherConst {
+    public static void main(String[] args) {
+        Person personLee = new Person("이정연", 16);
+
+        System.out.println(personLee.name);
+        System.out.println(personLee.age);
+        System.out.println(personLee.returnItSelf());
+        System.out.println(personLee);
+    }
+}

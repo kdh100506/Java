@@ -28,5 +28,4 @@ public class Student {
         int i = 10;
         return serialNum;
     }
-
 }
