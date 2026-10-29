@@ -12,10 +12,7 @@ public class IOex2 {
         }
 
         for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i]);
-            if (i < nums.length - 1) {
-                System.out.print(" ");
-            }
+            System.out.print(nums[i] + " ");
         }
         System.out.println();
     }
