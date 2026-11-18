@@ -31,7 +31,7 @@ public class VIPCustomer extends Customer {
         return price - (int) (price * saleRatio);
     }
 
-    public String showVIPInfo() {
+    public String showCustomerInfo() {
         return showCustomerInfo() + "\n상담원 ID는 " + getagentID() + "입니다.";
     }
 }
