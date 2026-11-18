@@ -4,16 +4,16 @@ public class VIPCustomer extends Customer {
     private int agentID;
     private double saleRatio;
 
-    public VIPCustomer() {
-        initVIPCustomer();
-        System.out.println("하위 클래스 VIPCustomer() 생성자 호출");
-    }
+//    public VIPCustomer() {
+//        initVIPCustomer();
+//        System.out.println("하위 클래스 VIPCustomer() 생성자 호출");
+//    }
 
     public VIPCustomer(int customerID, String customerName, int agentID) {
         super(customerID, customerName);
         initVIPCustomer();
         this.agentID = agentID;
-        System.out.println("하위 클래스 VIPCustomer(int, String) 생성자 호출");
+//        System.out.println("하위 클래스 VIPCustomer(int, String) 생성자 호출");
     }
 
     private void initVIPCustomer() {
@@ -32,6 +32,6 @@ public class VIPCustomer extends Customer {
     }
 
     public String showCustomerInfo() {
-        return showCustomerInfo() + "\n상담원 ID는 " + getagentID() + "입니다.";
+        return super.showCustomerInfo() + "\n상담원 ID는 " + getagentID() + "입니다.";
     }
 }
