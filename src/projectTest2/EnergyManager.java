@@ -1,7 +1,6 @@
 package projectTest2;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class EnergyManager {
     public static final double TARGET_KWH = 150.0;
@@ -24,8 +23,8 @@ public class EnergyManager {
             double generatedKwh = energy.getGeneratedKwh();
             double co2Saved = energy.getCo2Saved();
             System.out.println("이름: " + energy.getName());
-            System.out.printf(Locale.ROOT, "발전량: %.1fkWh%n", generatedKwh);
-            System.out.printf(Locale.ROOT, "CO2 절감량: %.1fkg%n", co2Saved);
+            System.out.printf("발전량: %.1fkWh%n", generatedKwh);
+            System.out.printf("CO2 절감량: %.1fkg%n", co2Saved);
             System.out.println("안내: " + energy.getAdvice());
 
             totalKwh += generatedKwh;
@@ -33,8 +32,8 @@ public class EnergyManager {
         }
 
         System.out.println("===== 전체 발전 분석 =====");
-        System.out.printf(Locale.ROOT, "전체 발전량: %.1fkWh%n", totalKwh);
-        System.out.printf(Locale.ROOT, "전체 CO2 절감량: %.1fkg%n", totalCo2Saved);
+        System.out.printf("전체 발전량: %.1fkWh%n", totalKwh);
+        System.out.printf("전체 CO2 절감량: %.1fkg%n", totalCo2Saved);
         if (totalKwh >= TARGET_KWH) {
             System.out.println("목표 발전량을 달성했습니다.");
         } else {
