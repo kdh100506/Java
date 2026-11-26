@@ -1,9 +1,9 @@
-package projectTest2;
+package test2_1304김도현_1305김지후;
 
 public class Energy {
-    private final String name;
-    private final double generatedKwh;
-    private static int energyCount;
+    private String name;
+    private double generatedKwh;
+    private static int energyCount = 0;
 
     public Energy(String name, double generatedKwh) {
         this.name = name;
@@ -19,15 +19,15 @@ public class Energy {
         return generatedKwh;
     }
 
+    public static int getEnergyCount() {
+        return energyCount;
+    }
+
     public double getCo2Saved() {
         return generatedKwh * 0.4;
     }
 
     public String getAdvice() {
-        return "재생에너지 사용을 늘려 보세요.";
-    }
-
-    public static int getEnergyCount() {
-        return energyCount;
+        return "재생에너지 사용량을 늘리세요";
     }
 }
